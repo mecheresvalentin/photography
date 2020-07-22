@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*navbar*/
+.nav-link {
+    font-size: 17px;
+}
+.navbar {
+    background-color: rgba(31,31,31,.3);
+}
+#navbar {
+    transition: .5s;
+}
+/*Header*/
+header {
+    height: 100vh;
+    background: url('../images/gallery/10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-overlay {
+    height: 100vh;
+    background-color: rgba(31,31,31,.3);
+}
+.header-h1 {
+    font-size: 3.4rem;
+}
+.btn-more {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.btn-more:hover {
+    color: #000000;
+    background-color: #fff;
+}
+.btn-more:focus {
+    color: #000000;
+    background-color: #fff;
+    box-shadow: none !important;
+}
+/*gallery*/
+.gallery-p {
+    font-size: 1.5rem;
+}
+.gallery-bottom-border {
+    border: 2px solid #000000;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*footer*/
+.footer {
+    box-shadow: 1px 0px 12px 1px;
+}
+.footer-border-bottom {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000
+}
+.anchor-unstyled:hover {
+    text-decoration: none;
+}
+/*@media*/
+@media (max-width: 567px){
+    .header-h1 {
+        font-size: 2.4rem;
+    }
+}
+/*other*/
+.gotopbtn {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: black;
+	bottom: 40px;
+	right: 50px;
+	border-radius: 2px;
+
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+	animation: btnspin .8s;
+}
